@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "C/C++: gcc.exe build active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}",
+            "args": [
+                "-g",
+                "${workspaceFolder}\\*.c",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}"
+            ],
+            "stopAtEntry": true,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": true,
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: gcc build active file"
+        }
+    ],
+    "version": "2.0.0"
+}
