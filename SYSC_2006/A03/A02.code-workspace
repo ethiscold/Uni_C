@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"math.h": "c",
+			"a1_functions.h": "c",
+			"a1_data_structures.h": "c",
+			"data_structures.h": "c",
+			"functions.h": "c",
+			"nodes.h": "c"
+		}
+	}
+}
